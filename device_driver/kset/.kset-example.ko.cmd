@@ -1,0 +1,1 @@
+cmd_/home/jay/device_driver/kset/kset-example.ko := ld -r -m elf_i386 -T /usr/src/linux-source-3.13.0/linux-source-3.13.0/scripts/module-common.lds --build-id  -o /home/jay/device_driver/kset/kset-example.ko /home/jay/device_driver/kset/kset-example.o /home/jay/device_driver/kset/kset-example.mod.o

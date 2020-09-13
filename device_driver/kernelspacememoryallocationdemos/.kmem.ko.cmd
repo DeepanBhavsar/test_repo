@@ -1,0 +1,1 @@
+cmd_/home/jay/device_driver/kernelspacememoryallocationdemos/kmem.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/jay/device_driver/kernelspacememoryallocationdemos/kmem.ko /home/jay/device_driver/kernelspacememoryallocationdemos/kmem.o /home/jay/device_driver/kernelspacememoryallocationdemos/kmem.mod.o

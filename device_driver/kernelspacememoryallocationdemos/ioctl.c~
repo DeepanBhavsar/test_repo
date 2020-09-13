@@ -1,0 +1,19 @@
+#include "char_ioctl.h"
+#include <stdio.h>
+#include <sys/ioctl.h>
+
+main()
+{
+	int fd, ret;
+	char s[5] = "JAY";
+	fd = open("/dev/ei-driver", 0);
+
+	if (fd <0)
+	{
+		printf("Device can not open\n");
+		return;
+	}
+	ioctl(fd, IOCTL_SET_MSG,"JAY");
+	ioctl(fd, IOCTL_GET_MSG, NULL);
+	close(fd);
+}

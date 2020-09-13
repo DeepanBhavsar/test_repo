@@ -1,0 +1,1 @@
+cmd_/home/jay/device_driver/readwrite/rw.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/jay/device_driver/readwrite/rw.ko /home/jay/device_driver/readwrite/rw.o /home/jay/device_driver/readwrite/rw.mod.o

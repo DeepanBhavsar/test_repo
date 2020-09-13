@@ -1,0 +1,1 @@
+cmd_/home/jay/device_driver/code3/hello3.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/jay/device_driver/code3/hello3.ko /home/jay/device_driver/code3/hello3.o /home/jay/device_driver/code3/hello3.mod.o

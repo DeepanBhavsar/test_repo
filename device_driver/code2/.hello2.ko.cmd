@@ -1,0 +1,1 @@
+cmd_/home/jay/device_driver/code2/hello2.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/jay/device_driver/code2/hello2.ko /home/jay/device_driver/code2/hello2.o /home/jay/device_driver/code2/hello2.mod.o

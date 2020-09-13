@@ -1,0 +1,1 @@
+cmd_/home/jay/device_driver/char_sys_group/sys_group.ko := ld -r -m elf_i386 -T /usr/src/linux-source-3.13.0/linux-source-3.13.0/scripts/module-common.lds --build-id  -o /home/jay/device_driver/char_sys_group/sys_group.ko /home/jay/device_driver/char_sys_group/sys_group.o /home/jay/device_driver/char_sys_group/sys_group.mod.o

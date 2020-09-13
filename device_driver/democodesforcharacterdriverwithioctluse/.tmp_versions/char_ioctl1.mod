@@ -1,0 +1,2 @@
+/home/jay/device_driver/democodesforcharacterdriverwithioctluse/char_ioctl1.ko
+/home/jay/device_driver/democodesforcharacterdriverwithioctluse/char_ioctl1.o

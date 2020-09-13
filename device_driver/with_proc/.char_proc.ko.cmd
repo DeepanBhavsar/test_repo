@@ -1,0 +1,1 @@
+cmd_/home/jay/device_driver/with_proc/char_proc.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/jay/device_driver/with_proc/char_proc.ko /home/jay/device_driver/with_proc/char_proc.o /home/jay/device_driver/with_proc/char_proc.mod.o
